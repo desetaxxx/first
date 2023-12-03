@@ -24,7 +24,7 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
     users = User.query.all()
-    user = User('Nata', 'female', 25, 'Canada', 'hockey')
+    user = User('Eva', 'female', 29, 'USA', 'hockey')
     db.session.add(user)
     db.session.commit()
     db.session.close()
