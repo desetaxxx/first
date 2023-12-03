@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>Спортсмены</title>
+</head>
+
+    <body>
+
+
+        <style> 
+            table {
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                text-align: left;
+                border-collapse: separate;
+                border-spacing: 5px;
+                background: #ECE9E0;
+                color: #656665;
+                border: 16px solid #ECE9E0;
+                border-radius: 20px;
+                }
+                th {
+                font-size: 18px;
+                padding: 10px;
+                }
+                td {
+                background: #F5D7BF;
+                padding: 10px;
+                }
+                
+        </style>
+        
+
+        
+            <a href="{{ url_for('index') }}">Главная</a>
+            
+
+        <table border="1">
+        <caption>Спортсмены</caption>
+
+            <tr>
+                <th>№</th>
+                <th>Имя</th>
+                <th>E-mail</th>
+                <th>Пол</th>
+                <th>Дата</th>
+            </tr>
+            
+            <tr>
+                <th>1</th>
+                <th>Сергей</th>
+                <th>ser22@mail.ru</th>
+                <th>мужской</th>
+                <th>21.10.2022</th>
+            </tr>
+            
+            <tr>
+                <th>2</th>
+                <th>Максим</th>
+                <th>maxsup39@mail.ru</th>
+                <th>мужской</th>
+                <th>13.01.2022</th>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <th>Николай</th>
+                <th>nik17@yandex.ru</th>
+                <th>мужской</th>
+                <th>17.02.2020</th>
+            </tr>
+
+
+            <tr>
+                <th>4</th>
+                <th>Сергей</th>
+                <th>supergg@yandex.ru</th>
+                <th>мужской</th>
+                <th>12.02.2021</th>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <th>Иван</th>
+                <th>ivanpampam@mail.ru</th>
+                <th>мужской</th>
+                <th>2.12.2022</th>
+            </tr>
+            
+            </table>
+    
+    </body>
+</html>
